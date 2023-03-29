@@ -34,7 +34,7 @@ class MemoFormVC: UIViewController, UINavigationControllerDelegate, UIImagePicke
         style.lineSpacing = 9
         self.Contents.attributedText = NSAttributedString(string: " ", attributes: [.paragraphStyle: style])
         
-        self.Contents.text = " "
+        self.Contents.text = "hello "
     }
     
     
